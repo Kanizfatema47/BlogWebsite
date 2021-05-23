@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+
+}
+.card{
+    border: none!important;
+}
+
+header .container-fluid{
+    padding: 0px;
+}
+
+header{
+    position: relative;
+}
+
+.navbar-brand{
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    background-color: #1a54e7;
+    font-size: 16px;
+}
+
+.bg-light{
+    padding: 0;
+}
+
+.bg-light .nav-right-link{
+    text-decoration: none;
+    padding-left: 10px;
+    color:#b0b0b0 ;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #0a58ca;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0a58ca;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #0a58ca; ;
+}
+
+
+
+.navbar-nav{
+    padding-right: 300px;
+}
+
+
+header .container-fluid:nth-of-type(2){
+    position: relative;
+}
+
+
+p{
+    position: absolute;
+    padding: 5px;
+    top: 78%;
+    color: white;
+    left: 25%;
+    object-fit: cover;
+    background-color: blue;
+
+}
+
+
+
+/*style for image section*/
+
+
+.image-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#f6f6f6;
+}
+
+.image-section .col-md-6 .card-title{
+   font-size: 15px;
+    margin-bottom: 6px;
+}
+
+
+.image-section .col-md-6 span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.image-section .col-md-6 .card{
+    position: relative;
+}
+
+.image-section .col-md-6 .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 41%;
+    color: white;
+    left: 0%;
+    background-color:#d90445;
+}
+
+.image-section .col-md-6:nth-of-type(2) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 41%;
+    color: white;
+    left: 0%;
+    background-color:#1e2125;
+}
+
+
+/*style for proin section*/
+.proin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.proin .container .row .col-md-12{
+    padding: 0;
+}
+.proin .container .row .col-md-12 .inner{
+    position: relative;
+
+}
+.proin .container .row .col-md-12 .inner p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 71%;
+    color: white;
+    left: 0%;
+    transform: translate(17%,0%);
+    background-color:#d90445;
+}
+.proin .container .row .col-md-12 .inner .righ-bar{
+    position: absolute;
+    top: 71%;
+    right: 0;
+    transform: translate(-17%,0%);
+}
+.proin .container .row .col-md-12 .inner .righ-bar span{
+    font-size: 13px;
+    color: #b0b0b0;
+}
+.proin .container .row .col-md-12 .inner .righ-bar a{
+    font-size: 13px;
+
+}
+.proin .container .row .col-md-12 .inner .center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.proin .container .row .col-md-12 .inner .center-text h1{
+    color: white;
+    text-align: center;
+}
+.proin .container .row .col-md-12 .inner .center-text h5{
+    color:white;
+    text-align: center;
+}
+
+
+/*style for featrure image 3*/
+.feature-image-3{
+    padding-bottom: 50px;
+}
+.feature-image-3 .container .row .col-md-4 .card-title{
+    font-size: 14px;
+}
+
+.feature-image-3 .container .row .col-md-4 .card-body span{
+    font-size: 11px;
+}
+
+.feature-image-3 .container .row .col-md-4 .card-body a{
+    font-size: 11px;
+}
+
+.feature-image-3 .container .row .col-md-4 .card{
+    position: relative;
+}
+
+.feature-image-3 .container .row .col-md-4:nth-of-type(1) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color:greenyellow;
+}
+
+.feature-image-3 .container .row .col-md-4:nth-of-type(2) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color: #5151dc;
+}
+
+.feature-image-3 .container .row .col-md-4:nth-of-type(3) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color:#1e2125;
+}
+
+/*style for feature section 4*/
+
+.feature-image-4{
+    padding-bottom: 50px;
+}
+.feature-image-4 .container .row .col-md-4 .card-title{
+    font-size: 14px;
+}
+
+.feature-image-4 .container .row .col-md-4 .card-body span{
+    font-size: 11px;
+}
+
+.feature-image-4 .container .row .col-md-4 .card-body a{
+    font-size: 11px;
+}
+
+.feature-image-4 .container .row .col-md-4 .card{
+    position: relative;
+}
+
+.feature-image-4 .container .row .col-md-4:nth-of-type(1) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color:#d90445;
+}
+
+.feature-image-4 .container .row .col-md-4:nth-of-type(2) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color: #d90445;
+}
+
+.feature-image-4 .container .row .col-md-4:nth-of-type(3) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 31%;
+    color: white;
+    left: 0%;
+    background-color:#8200b2;
+}
+
+/*style for feature image 5*/
+
+.feature-image-5{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#f6f6f6;
+}
+
+.feature-image-5 .col-md-6 .card-title{
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+
+.feature-image-5 .col-md-6 span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.feature-image-5 .col-md-6 .card{
+    position: relative;
+}
+
+.feature-image-5 .col-md-6 .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 41%;
+    color: white;
+    left: 0%;
+    background-color:#d90445;
+}
+
+.feature-image-5 .col-md-6:nth-of-type(2) .card p{
+    position: absolute;
+    padding: 5px 7px;
+    top: 41%;
+    color: white;
+    left: 0%;
+    background-color:#1e2125;
+}
+
+
+/*style for first footer*/
+
+
+.first-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-image: url("../img/footer-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.first-footer h1{
+    color: white;
+    font-weight: 300;
+}
+
+.first-footer h4{
+    padding-bottom: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+.first-footer .form-control{
+    padding-left: 16px;
+    padding-right: 26px;
+    border-radius: 40px;
+    border: 1px solid #2c6cff;
+    background-color: #2c6cff;
+}
+
+
+.first-footer .form{
+    position: relative;
+}
+.first-footer .btn-primary{
+    padding: 6px 8px;
+    position: absolute;
+    left: 53%;
+    background-color: white;
+    color: #0a58ca;
+    border-radius: 40px;
+}
+
+/*style for footer*/
+footer{
+    padding: 70px 0px;
+}
+
+footer h4{
+    font-size: 13px;
+    color:  #b0b0b0;
+}
+footer h5{
+    font-size: 12px;
+    color:  #b0b0b0;
+}
